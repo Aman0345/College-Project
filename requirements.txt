@@ -1,0 +1,11 @@
+torch
+transformers
+tensorflow
+keras
+pandas
+numpy
+scikit-learn
+matplotlib
+opencv-python
+requests
+pillow
