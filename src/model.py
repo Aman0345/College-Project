@@ -13,6 +13,8 @@ class TextClassificationModel(nn.Module):
         outputs = self.bert(input_ids, attention_mask=attention_mask)
         pooled_output = outputs.pooler_output
         return self.fc(pooled_output)
+    
+    
 
 class ImageClassificationModel(nn.Module):
     def __init__(self, num_classes=2):
